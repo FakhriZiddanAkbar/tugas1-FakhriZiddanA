@@ -50,7 +50,7 @@ Dataset yang digunakan dalam tugas ini diperoleh dari Hugging Face Datasets.
    `https://huggingface.co/datasets/Azzindani/ID_REG_Parsed`
 2. Unduh file-file `.parquet`.
 3. Simpan tanpa modifikasi pada:
-   `data/raw/ID_REG_Parsed/`
+   `data/raw/DataSet/`
 4. Catat nama file dan checksum apabila tersedia.
 5. Arahkan `DATA_PATH` pada `notebooks/01_data_profiling.ipynb`
    ke file Parquet tersebut.
@@ -60,5 +60,5 @@ Dataset yang digunakan dalam tugas ini diperoleh dari Hugging Face Datasets.
 
 - Jangan commit dataset mentah atau hasil olahan berukuran besar ke Git.
 - File pada `data/raw/` adalah data asli dan tidak boleh diubah.
-- Dataset mentah disimpan pada `data/raw/ID_REG_Parsed/`.
+- Dataset mentah disimpan pada `data/raw/DataSet/`.
 - Hasil transformasi disimpan pada `data/processed/`.
